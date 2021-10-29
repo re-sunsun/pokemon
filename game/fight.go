@@ -20,5 +20,8 @@ func fight(me pokemon.Pokemon){
 			return
 		}
 		//该怎么调度使木头人也会攻击我?
+		other.Attack(me)
+		me.ShowState()
+		other.ShowState()
 	}
 }
